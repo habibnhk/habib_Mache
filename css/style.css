@@ -1,0 +1,441 @@
+/*=====================
+
+Project name : Mache_Template-Symu_co
+Author     :MD HABIB ULLAH
+email        :habibnhk79@gmail.com
+========================*/
+
+/* Documentation
+>>>Section<<<
+
+1.Header Section
+2.Hero Section
+3.
+4.
+5.
+
+=========================*/
+
+
+
+/* basic setup */
+.pink{
+
+    color: #ed145b;
+    font-size: 30px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: #f4f4f4;
+}
+
+h1{
+    color: #fff;
+    font-size: 46px;
+    font-weight: 100;
+    position: relative;
+    padding-bottom: 15px;
+}
+h1:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 30%;
+    background: #ed145b;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+
+h2{
+    font-weight: 100;
+}
+p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.btn{
+    padding: 8px 25px;
+    background: #ed145b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+section{
+    padding: 60px 0;
+}
+.content-box{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* navigation*/
+header{
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: .6s;
+}
+nav ul li a:hover{
+    color: #ed145b;
+}
+
+.hero-main {
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.hero-content{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.hero-content p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.hero-content .btn{
+    margin-top: 40px;
+}
+
+.laptop-section{
+   position: relative;
+}
+.laptop-section .frame{
+    position: relative;
+    top: -28px;
+    z-index: -8;
+    max-width: 100%;
+}
+.sec-title{
+    text-align: center;
+}
+.sec-title h2{
+    text-align: center;
+    text-align: left;
+    font-size: 38px;
+    position: relative; 
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.sec-title h2:after{
+    position: absolute;
+    content: '';
+    width: 98%;
+    height: 3px;
+    background: #ed145b;
+    bottom: 0;
+    left: 0;
+}
+.laptop-section p{
+    margin: 20px 0
+}
+
+.laptop-section a{
+    color: #ed145b;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .6s;
+}
+.laptop-section a:hover{
+    color: #111;
+    text-decoration: none;
+}
+.laptop-section .img-wrapper{
+   position: relative;
+    bottom: -15%;
+
+
+
+}
+/* services-section */
+.services-section {
+    background: #fff;
+    padding-top: 80px;
+}
+.services-section h2{
+    text-align: center;
+    display: inline-block;
+}
+.services-section .services{
+    margin-top: 35px;
+}
+.services-section .services .icon-box{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+ margin: 0 auto;
+}
+
+.services-section .services .icon-box img{
+    padding: 25px;
+}
+.services-section .services h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ed145b;
+    margin: 15px 0;
+}
+
+/* testimonial-section */
+
+.testimonial-section{
+    background-image: url(../images/hero-2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.testimonial-section .single-slider{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+.testimonial-section .single-slider .fas{
+    font-size: 24px;
+   color: #ed145b;
+}
+.testimonial-section .single-slider p{
+    font-size: 16px;
+    margin: 15px 0
+    
+}
+
+.testimonial-section .single-slider.carousel-item{
+    float: none;
+}
+
+/* price-section
+*/
+
+.price-section{
+    
+}
+.prices-wrapper{
+    margin-top: 40px;
+}
+.price-section h2{
+    text-align: center;
+}
+.prices-wrapper .card-top{
+    width: 100%;
+    height: 100px;
+    background: #5a5a5a;
+    text-align: center;
+    padding: 15px;
+    position: relative; 
+    color: #fff;
+    transition: .6s;
+}
+.prices-wrapper .card-top .btn-white{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    bottom: -15%;
+}
+.prices-wrapper .card{
+    background: #fff;
+    text-align: center;
+}
+.prices-wrapper .card-top h4{
+    margin: 0;
+}
+.prices-wrapper .card-top h4 span{
+    font-size: 14px;
+}
+.prices-wrapper .card-top p{
+    text-transform: capitalize;
+    margin: 0;
+}
+.prices-wrapper .btn-white{
+    background: #f4f4f4;
+    color: #5a5a5a;
+}
+.prices-wrapper ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    list-style: none;
+}
+.prices-wrapper ul li{
+    margin: 10px 0;
+}
+.prices-wrapper .card-btn{
+    margin: 10px 0 30px 0;
+}
+
+.prices-wrapper .card:hover .card-top {
+    background:#ed145b;
+}
+
+/* items-section */
+.items-section{
+    background: #fff;
+}
+
+.items-section h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ed145b;
+    margin: 0;
+    line-height: .8
+}
+.items-section p{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.items-section .description{
+    margin-left: 25px;
+}
+/* call-to-action */
+
+.call-to-action {
+    background:  #ed145b;
+    color: #fff;
+}
+.call-to-action p{
+    font-size: 38px;
+    margin: 0;
+}
+.call-to-action p span{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.call-to-action .btn-white{
+    border: 1px solid #fff;
+    background: #fff;
+    color: #ed145b;
+}
+/* updates */
+
+.updates{
+    background: #fff;
+    text-align: center;
+}
+.updates .card{
+    background: #f4f4f4;
+    border: 0;
+}
+
+.update-news{
+    margin-top: 35px;
+    text-align: left;
+}
+.updates .card .img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.updates .card .img-wrapper .hover-content{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(232, 48, 108, 0.84);
+    transition: .8s;
+}
+.updates .card .img-wrapper .hover-content a{
+    font-size: 24px;
+    color: #fff;
+}
+.updates .card .img-wrapper:hover .hover-content{
+    top: 0
+}
+.updates .show-more{
+    margin-top: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ed145b;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+}
+.updates .show-more:after{
+    position: absolute;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f078";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 90%;
+}
+
+/* template */
+.template{
+    background-image: url(../images/hero-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    color: #fff;
+}
+.template p{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+/* download */
+.download {
+    
+}
+.download img{
+    width: 110%;
+    height: 100%;
+    margin-left: -80px
+}
+.download .sec-title{
+    text-align: left;
+}
+.download p{
+    margin-top: 20px;
+}
+.download .btn{
+    margin-top: 20px;
+}
+/* footer */
+
+footer{
+    padding: 40px 0;
+    background: #2b2b2b;
+    color: #FFF;
+}
+footer .footer-flex{
+        display: flex;
+    justify-content: space-between
+}
+footer p{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
